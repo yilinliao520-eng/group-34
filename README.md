@@ -46,6 +46,8 @@ src/
 results/
   full_env_audit/ Main 50-goal evaluation results and summaries
 report/
+  overleaf_acl_group34/       Official ACL-template Overleaf package
+  group34_acl_overleaf_package.zip  Zip version for direct Overleaf upload
   final_report_group34_zh.tex  Chinese final report source for Overleaf/ACL
   acl.sty                     Lightweight ACL-like style used by the report
   references.bib              Report bibliography
