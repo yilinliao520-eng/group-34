@@ -1,0 +1,27 @@
+{
+  "repeat_to_click_only": {
+    "success_rate": 0.22,
+    "avg_reward": 0.18227999999999997,
+    "total_interventions": 74
+  },
+  "no_forced_buy": {
+    "success_rate": 0.22,
+    "avg_reward": 0.19227999999999998,
+    "total_interventions": 81
+  },
+  "conservative_forced_buy": {
+    "success_rate": 0.48,
+    "avg_reward": 0.41881999999999997,
+    "total_interventions": 106
+  },
+  "no_controller": {
+    "success_rate": 0.02,
+    "avg_reward": 0.012,
+    "total_interventions": 0
+  },
+  "current_controller": {
+    "success_rate": 0.48,
+    "avg_reward": 0.446,
+    "total_interventions": 114
+  }
+}

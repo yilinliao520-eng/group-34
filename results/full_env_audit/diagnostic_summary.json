@@ -1,0 +1,40 @@
+{
+  "baseline": {
+    "success_rate": 0.26,
+    "avg_reward": 0.2328,
+    "avg_first_query_words": 7.48,
+    "zero_result_rate": 0.4028776978417266,
+    "failure_types": {
+      "partial_match_premature_buy": 5,
+      "other_failure": 2,
+      "none": 13,
+      "wrong_product_bought": 3,
+      "max_steps_no_buy": 11,
+      "zero_result_long_query": 16
+    }
+  },
+  "expert_sft": {
+    "success_rate": 0.14,
+    "avg_reward": 0.13334,
+    "avg_first_query_words": 24.28,
+    "zero_result_rate": 0.5657142857142857,
+    "failure_types": {
+      "other_failure": 1,
+      "max_steps_no_buy": 25,
+      "zero_result_long_query": 17,
+      "none": 7
+    }
+  },
+  "unified_sft": {
+    "success_rate": 0.1,
+    "avg_reward": 0.07116,
+    "avg_first_query_words": 25.36,
+    "zero_result_rate": 0.054838709677419356,
+    "failure_types": {
+      "wrong_product_bought": 1,
+      "max_steps_no_buy": 41,
+      "zero_result_long_query": 3,
+      "none": 5
+    }
+  }
+}

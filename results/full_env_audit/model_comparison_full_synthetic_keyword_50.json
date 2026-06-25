@@ -1,0 +1,1208 @@
+{
+  "baseline": [
+    {
+      "goal": 0,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me easy care, day comfort, machine washable women's shorts with stretch fab"
+    },
+    {
+      "goal": 1,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me slim fit, moisture wicking men's polos with short sleeve, regular fit, l"
+    },
+    {
+      "goal": 2,
+      "reward": 0.4,
+      "steps": 3,
+      "success": false,
+      "first_query": "easy care loose fit women's lake green x-large tops tees blouses price <50",
+      "instruction": "Find me easy care, loose fit women's tops, tees & blouses with color: lake green"
+    },
+    {
+      "goal": 3,
+      "reward": 0.6,
+      "steps": 6,
+      "success": true,
+      "first_query": " ",
+      "instruction": "Find me long lasting, high performance batteries with size: 48 pack, and style: "
+    },
+    {
+      "goal": 4,
+      "reward": 0.016666666666666666,
+      "steps": 7,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me light weight, high resolution, easy carry underwater photography for dig"
+    },
+    {
+      "goal": 5,
+      "reward": 0.625,
+      "steps": 3,
+      "success": true,
+      "first_query": "officially licensed black men's 2t star wars dress shirts needle sleeve classic fit under 60",
+      "instruction": "Find me officially licensed men's dress shirts with needle sleeve, classic fit f"
+    },
+    {
+      "goal": 6,
+      "reward": 0.25,
+      "steps": 5,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me long lasting, machine wash men's jeans with imported zipper, comfortable"
+    },
+    {
+      "goal": 7,
+      "reward": 0.8,
+      "steps": 3,
+      "success": true,
+      "first_query": "straight leg fleece lined wide leg women's activewear tummy control high waist teen girls daily wear b3-navy x-large price < 30",
+      "instruction": "Find me straight leg, fleece lined, wide leg women's activewear with tummy contr"
+    },
+    {
+      "goal": 8,
+      "reward": 0.25,
+      "steps": 6,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me long lasting, machine wash men's jeans with imported zipper, comfortable"
+    },
+    {
+      "goal": 9,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me men's sandals with rubber outsole, rubber sole with color: black - schwa"
+    },
+    {
+      "goal": 10,
+      "reward": 0.5,
+      "steps": 3,
+      "success": false,
+      "first_query": "mid century ottomans wood teal 80 sofa price <260",
+      "instruction": "Find me mid century ottomans with wood frame, solid wood with color: teal, and s"
+    },
+    {
+      "goal": 11,
+      "reward": 0.75,
+      "steps": 4,
+      "success": true,
+      "first_query": "fleece lined pants high waist snake mauve 1x",
+      "instruction": "Find me fleece lined, wash cold, hand wash women's pants with high waist, polyes"
+    },
+    {
+      "goal": 12,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me slim fit, hand wash, machine wash men's dress shirts with button closure"
+    },
+    {
+      "goal": 13,
+      "reward": 0.7142857142857143,
+      "steps": 3,
+      "success": true,
+      "first_query": "wide leg moisture wicking women's shorts high waist tummy control red medium price <40",
+      "instruction": "Find me wide leg, moisture wicking women's shorts with high waist, tummy control"
+    },
+    {
+      "goal": 14,
+      "reward": 0.6666666666666666,
+      "steps": 4,
+      "success": true,
+      "first_query": "women's pants high waist elastic polyester spandex pink large under 60",
+      "instruction": "Find me women's pants with high waist, elastic waist, polyester spandex with col"
+    },
+    {
+      "goal": 15,
+      "reward": 0.09090909090909091,
+      "steps": 3,
+      "success": false,
+      "first_query": "black men's t-shirts tanks",
+      "instruction": "Find me officially licensed, machine wash men's t-shirts & tanks with polyester "
+    },
+    {
+      "goal": 16,
+      "reward": 0.6,
+      "steps": 3,
+      "success": true,
+      "first_query": "super soft decorative pillows chocolate king cal-king 92x104 3pcs duvet set price < 50",
+      "instruction": "Find me super soft decorative pillows with exquisite workmanship with color: cho"
+    },
+    {
+      "goal": 17,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me wide leg, straight leg women's pants with elastic waist, long sleeve, hi"
+    },
+    {
+      "goal": 18,
+      "reward": 0.020000000000000004,
+      "steps": 3,
+      "success": false,
+      "first_query": "machine wash men's t-shirts purple medium",
+      "instruction": "Find me machine wash men's t-shirts & tanks with polyester heathers, heathers co"
+    },
+    {
+      "goal": 19,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "machine wash men's white dress shirts polyester heathers cotton heather needle sleeve classic fit women size large under 30",
+      "instruction": "Find me machine wash men's dress shirts with polyester heathers, heathers cotton"
+    },
+    {
+      "goal": 20,
+      "reward": 0.3333333333333333,
+      "steps": 7,
+      "success": false,
+      "first_query": "women's swimsuits cover ups",
+      "instruction": "Find me quick drying, hand wash women's swimsuits & cover ups with polyester spa"
+    },
+    {
+      "goal": 21,
+      "reward": 0.3333333333333333,
+      "steps": 3,
+      "success": false,
+      "first_query": "women's pants navy blue tummy control large",
+      "instruction": "Find me daily casual, day comfort, moisture wicking women's pants with tummy con"
+    },
+    {
+      "goal": 22,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "machine washable men's navy dress shirts medium polyester cotton heather",
+      "instruction": "Find me machine wash men's dress shirts with polyester heathers, heathers cotton"
+    },
+    {
+      "goal": 23,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me machine wash men's t-shirts with polyester cotton, short sleeve with col"
+    },
+    {
+      "goal": 24,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me women's loafers & slip-ons with high heel, closed toe, ankle strap with "
+    },
+    {
+      "goal": 25,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "officially licensed men's t-shirt polyester heathers cotton heather needle sleeve classic fit royal blue xx-large <60",
+      "instruction": "Find me officially licensed, machine wash men's t-shirts with polyester heathers"
+    },
+    {
+      "goal": 26,
+      "reward": 0.42857142857142855,
+      "steps": 3,
+      "success": false,
+      "first_query": "long lasting men's pants stonewashed big & tall 35w x 38l <60",
+      "instruction": "Find me long lasting men's pants with comfortable fit, relaxed fit with color: s"
+    },
+    {
+      "goal": 27,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "day comfort anti slip non slip hand wash women oxfords lace closure high heel size 10.5 white price <60",
+      "instruction": "Find me day comfort, anti slip, non slip, hand wash women's oxfords with lace cl"
+    },
+    {
+      "goal": 28,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "open toe women work safety footwear closed toe ankle strap arch support a11-gold size 4 wide price <60",
+      "instruction": "Find me open toe women's work & safety footwear with closed toe, ankle strap, ar"
+    },
+    {
+      "goal": 29,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me men's tank tops with needle sleeve, classic fit with color: neon pink, a"
+    },
+    {
+      "goal": 30,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "women oxfords dark green",
+      "instruction": "Find me water resistant, anti slip, non slip women's oxfords with rubber sole wi"
+    },
+    {
+      "goal": 31,
+      "reward": 0.6,
+      "steps": 3,
+      "success": true,
+      "first_query": "super soft machine washable brown coffee 36x20 pillows under 50",
+      "instruction": "Find me super soft, machine washable decorative pillows with color: brown coffee"
+    },
+    {
+      "goal": 32,
+      "reward": 0.6,
+      "steps": 6,
+      "success": true,
+      "first_query": " ",
+      "instruction": "Find me vanities with vanity light, glass shade with color: chrome, and size: 3-"
+    },
+    {
+      "goal": 33,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "officially licensed men's tank top dark heather medium polyester cotton",
+      "instruction": "Find me officially licensed, machine wash men's tank tops with polyester heather"
+    },
+    {
+      "goal": 34,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "officially licensed men's dress shirts needle sleeve black women fit 2t price<50",
+      "instruction": "Find me officially licensed men's dress shirts with needle sleeve, classic fit w"
+    },
+    {
+      "goal": 35,
+      "reward": 0.4,
+      "steps": 7,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me day comfort, machine wash men's pants with color: ceil blue, and size: x"
+    },
+    {
+      "goal": 36,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me hand wash women's bodysuit tops with long sleeve, stretch fabric, polyes"
+    },
+    {
+      "goal": 37,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me straight leg, machine wash men's pants with button closure with color: b"
+    },
+    {
+      "goal": 38,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "daily casual slim fit men's long sleeve green small <50",
+      "instruction": "Find me daily casual, slim fit men's sweaters with long sleeve with color: cmttl"
+    },
+    {
+      "goal": 39,
+      "reward": 0.0,
+      "steps": 3,
+      "success": false,
+      "first_query": "\u5bbd\u677e\u817f\u673a\u6d17\u5973\u88e4\u677e\u57ae\u9ad8\u8170\u5c11\u5973X\u5c0f\u7eff",
+      "instruction": "Find me wide leg, machine wash, wash cold women's pants with relaxed fit, button"
+    },
+    {
+      "goal": 40,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me easy care, day comfort, machine washable men's jeans with comfortable fi"
+    },
+    {
+      "goal": 41,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "wash cold machine wash men's t-shirts heather blue 3x-large",
+      "instruction": "Find me wash cold, machine wash men's t-shirts with polyester heathers, heathers"
+    },
+    {
+      "goal": 42,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "window coverings blackout khaki 3903",
+      "instruction": "Find me high density window coverings for living room with color: blackout khaki"
+    },
+    {
+      "goal": 43,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "machine wash women's dresses imported zipper teal size 18+ price <110",
+      "instruction": "Find me machine wash women's dresses with imported zipper with color: teal, and "
+    },
+    {
+      "goal": 44,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "women's loafers slip-ons pink w43 size 7",
+      "instruction": "Find me women's loafers & slip-ons with closed toe, ankle strap with color: w43 "
+    },
+    {
+      "goal": 45,
+      "reward": 0.4444444444444444,
+      "steps": 3,
+      "success": false,
+      "first_query": "wash cold hand wash women's sweaters comfortable fit long sleeve dry clean daily wear wsk2135_teal 3x-large price<50",
+      "instruction": "Find me wash cold, hand wash women's sweaters with comfortable fit, long sleeve "
+    },
+    {
+      "goal": 46,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "slim fit hand wash women's jumpsuits long sleeve dry clean 001-black x-large price<30",
+      "instruction": "Find me slim fit, hand wash women's jumpsuits, rompers & overalls with long slee"
+    },
+    {
+      "goal": 47,
+      "reward": 0.625,
+      "steps": 7,
+      "success": true,
+      "first_query": "easy assemble pendant light stainless steel living room dining room color: pendant light a price < 80",
+      "instruction": "Find me easy assemble pendants and chandeliers with pendant light, stainless ste"
+    },
+    {
+      "goal": 48,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "slim fit loose fit women's sweaters long sleeve short sleeve high waist khaki XXL under 60",
+      "instruction": "Find me slim fit, loose fit women's sweaters with long sleeve, short sleeve, hig"
+    },
+    {
+      "goal": 49,
+      "reward": 0.375,
+      "steps": 6,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me long lasting, machine wash men's jeans with imported zipper, comfortable"
+    }
+  ],
+  "expert_sft": [
+    {
+      "goal": 0,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "easy care, day comfort, machine washable women's shorts with stretch fabric for everyday wear, tumble dry with color: mint, and size: 7, and price lower than 50.00 dollars",
+      "instruction": "Find me easy care, day comfort, machine washable women's shorts with stretch fab"
+    },
+    {
+      "goal": 1,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "slim fit, moisture wicking men's polos with short sleeve, regular fit, long sleeve, stretch fabric, polyester spandex, classic fit for daily wear with color: dark blue, and size: x-large, and price lower than 50.00 dollars",
+      "instruction": "Find me slim fit, moisture wicking men's polos with short sleeve, regular fit, l"
+    },
+    {
+      "goal": 2,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "easy care, loose fit women's tops, tees & blouses with color: lake green, and size: x-large, and price lower than 50.00 dollars",
+      "instruction": "Find me easy care, loose fit women's tops, tees & blouses with color: lake green"
+    },
+    {
+      "goal": 3,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "long lasting, high performance batteries with size: 48 pack, and style: cr2025, and price lower than 50.00 dollars",
+      "instruction": "Find me long lasting, high performance batteries with size: 48 pack, and style: "
+    },
+    {
+      "goal": 4,
+      "reward": 0.6666666666666666,
+      "steps": 7,
+      "success": true,
+      "first_query": "light weight, high resolution, easy carry underwater photography for digital photography with size: 8x6.5ft, and price lower than 30.00 dollars",
+      "instruction": "Find me light weight, high resolution, easy carry underwater photography for dig"
+    },
+    {
+      "goal": 5,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "officially licensed men's dress shirts with needle sleeve, classic fit for star wars with color: black, and fit type: men, and size: 2t, and price lower than 60.00 dollars",
+      "instruction": "Find me officially licensed men's dress shirts with needle sleeve, classic fit f"
+    },
+    {
+      "goal": 6,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "long lasting, machine wash men's jeans with imported zipper, comfortable fit with color: acorn, and fit type: relaxed, and size: 30w x 34l, and price lower than 130.00 dollars",
+      "instruction": "Find me long lasting, machine wash men's jeans with imported zipper, comfortable"
+    },
+    {
+      "goal": 7,
+      "reward": 1.0,
+      "steps": 5,
+      "success": true,
+      "first_query": "straight leg, fleece lined, wide leg women's activewear with tummy control, high waist for teen girls, daily wear with color: b3-navy, and size: x-large, and price lower than 30.00 dollars",
+      "instruction": "Find me straight leg, fleece lined, wide leg women's activewear with tummy contr"
+    },
+    {
+      "goal": 8,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "long lasting, machine wash men's jeans with imported zipper, comfortable fit with color: portland, and fit type: regular, and size: 38w x 40l, and price lower than 60.00 dollars",
+      "instruction": "Find me long lasting, machine wash men's jeans with imported zipper, comfortable"
+    },
+    {
+      "goal": 9,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "men's sandals with rubber outsole, rubber sole with color: black - schwarz ((hank foto) bla), and size: 9 uk, and price lower than 60.00 dollars",
+      "instruction": "Find me men's sandals with rubber outsole, rubber sole with color: black - schwa"
+    },
+    {
+      "goal": 10,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "mid century ottomans with wood frame, solid wood with color: teal, and size: 80\" sofa, and price lower than 260.00 dollars",
+      "instruction": "Find me mid century ottomans with wood frame, solid wood with color: teal, and s"
+    },
+    {
+      "goal": 11,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "fleece lined, wash cold, hand wash women's pants with high waist, polyester spandex with color: high waist print leggings - snake mauve, and size: 1x, and price lower than 50.00 dollars",
+      "instruction": "Find me fleece lined, wash cold, hand wash women's pants with high waist, polyes"
+    },
+    {
+      "goal": 12,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "slim fit, hand wash, machine wash men's dress shirts with button closure, long sleeve with color: i-blue, and size: x-small, and price lower than 50.00 dollars",
+      "instruction": "Find me slim fit, hand wash, machine wash men's dress shirts with button closure"
+    },
+    {
+      "goal": 13,
+      "reward": 1.0,
+      "steps": 5,
+      "success": true,
+      "first_query": "wide leg, moisture wicking women's shorts with high waist, tummy control with color: red, and size: medium, and price lower than 40.00 dollars",
+      "instruction": "Find me wide leg, moisture wicking women's shorts with high waist, tummy control"
+    },
+    {
+      "goal": 14,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "women's pants with high waist, elastic waist, polyester spandex with color: pink, and size: large, and price lower than 60.00 dollars",
+      "instruction": "Find me women's pants with high waist, elastic waist, polyester spandex with col"
+    },
+    {
+      "goal": 15,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me officially licensed, machine wash men's t-shirts & tanks with polyester "
+    },
+    {
+      "goal": 16,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "super soft decorative pillows with exquisite workmanship with color: chocolate, and size: king  |  cal-king 92x104 (3pcs duvet set), and price lower than 50.00 dollars",
+      "instruction": "Find me super soft decorative pillows with exquisite workmanship with color: cho"
+    },
+    {
+      "goal": 17,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "wide leg, straight leg women's pants with elastic waist, long sleeve, high waist, elastic closure, short sleeve for everyday wear with color: black, and size: x-large, and price lower than 50.00 dollars",
+      "instruction": "Find me wide leg, straight leg women's pants with elastic waist, long sleeve, hi"
+    },
+    {
+      "goal": 18,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "purple men's t-shirt",
+      "instruction": "Find me machine wash men's t-shirts & tanks with polyester heathers, heathers co"
+    },
+    {
+      "goal": 19,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "machine wash men's dress shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: white, and fit type: women, and size: large, and price lower than 30.00 dollars",
+      "instruction": "Find me machine wash men's dress shirts with polyester heathers, heathers cotton"
+    },
+    {
+      "goal": 20,
+      "reward": 0.6666666666666666,
+      "steps": 5,
+      "success": true,
+      "first_query": "quick drying, hand wash women's swimsuits & cover ups with polyester spandex with color: black, and size: large, and price lower than 40.00 dollars",
+      "instruction": "Find me quick drying, hand wash women's swimsuits & cover ups with polyester spa"
+    },
+    {
+      "goal": 21,
+      "reward": 0.6666666666666666,
+      "steps": 5,
+      "success": true,
+      "first_query": "daily casual, day comfort, moisture wicking women's pants with tummy control, high waist, nylon spandex with color: full length - navy blue, and size: large, and price lower than 50.00 dollars",
+      "instruction": "Find me daily casual, day comfort, moisture wicking women's pants with tummy con"
+    },
+    {
+      "goal": 22,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "machine wash men's dress shirts with polyester heathers, heathers cotton, cotton heather with color: navy, and fit type: men, and size: medium, and price lower than 50.00 dollars",
+      "instruction": "Find me machine wash men's dress shirts with polyester heathers, heathers cotton"
+    },
+    {
+      "goal": 23,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "machine wash men's t-shirts with polyester cotton, short sleeve with color: heather navy, and size: x-large, and price lower than 30.00 dollars",
+      "instruction": "Find me machine wash men's t-shirts with polyester cotton, short sleeve with col"
+    },
+    {
+      "goal": 24,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "women's loafers & slip-ons with high heel, closed toe, ankle strap with color: #h4-dark purple, and size: 8, and price lower than 40.00 dollars",
+      "instruction": "Find me women's loafers & slip-ons with high heel, closed toe, ankle strap with "
+    },
+    {
+      "goal": 25,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "officially licensed, machine wash men's t-shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: royal blue, and fit type: men, and size: xx-large, and price lower than 60.00 dollars",
+      "instruction": "Find me officially licensed, machine wash men's t-shirts with polyester heathers"
+    },
+    {
+      "goal": 26,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "long lasting men's pants with comfortable fit, relaxed fit with color: stonewashed, and fit type: big & tall, and size: 35w x 38l, and price lower than 60.00 dollars",
+      "instruction": "Find me long lasting men's pants with comfortable fit, relaxed fit with color: s"
+    },
+    {
+      "goal": 27,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "day comfort, anti slip, non slip, hand wash women's oxfords with lace closure, high heel with color: white, and size: 10.5, and price lower than 60.00 dollars",
+      "instruction": "Find me day comfort, anti slip, non slip, hand wash women's oxfords with lace cl"
+    },
+    {
+      "goal": 28,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "open toe women's work & safety footwear with closed toe, ankle strap, arch support with color: a11 - gold, and size: 4 wide, and price lower than 60.00 dollars",
+      "instruction": "Find me open toe women's work & safety footwear with closed toe, ankle strap, ar"
+    },
+    {
+      "goal": 29,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "men's tank tops with needle sleeve, classic fit with color: neon pink, and fit type: men, and size: large, and price lower than 50.00 dollars",
+      "instruction": "Find me men's tank tops with needle sleeve, classic fit with color: neon pink, a"
+    },
+    {
+      "goal": 30,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "water resistant, anti slip, non slip women's oxfords with rubber sole with color: dark green, and size: 6 women | 4.5 men, and price lower than 80.00 dollars",
+      "instruction": "Find me water resistant, anti slip, non slip women's oxfords with rubber sole wi"
+    },
+    {
+      "goal": 31,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "super soft, machine washable decorative pillows with color: brown coffee, and size: 36\" x 20\", and price lower than 50.00 dollars",
+      "instruction": "Find me super soft, machine washable decorative pillows with color: brown coffee"
+    },
+    {
+      "goal": 32,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "vanity light, glass shade with color: chrome, and size: 3-light, and price lower than 550.00 dollars",
+      "instruction": "Find me vanities with vanity light, glass shade with color: chrome, and size: 3-"
+    },
+    {
+      "goal": 33,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "officially licensed, machine wash men's tank tops with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: dark heather, and fit type: women, and size: medium, and price lower than 50.00 dollars",
+      "instruction": "Find me officially licensed, machine wash men's tank tops with polyester heather"
+    },
+    {
+      "goal": 34,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "officially licensed men's dress shirts with needle sleeve, classic fit with color: black, and fit type: women, and size: 2t, and price lower than 50.00 dollars",
+      "instruction": "Find me officially licensed men's dress shirts with needle sleeve, classic fit w"
+    },
+    {
+      "goal": 35,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "day comfort, machine wash men's pants with color: ceil blue, and size: xx-large big tall, and price lower than 60.00 dollars",
+      "instruction": "Find me day comfort, machine wash men's pants with color: ceil blue, and size: x"
+    },
+    {
+      "goal": 36,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "hand wash women's bodysuit tops with long sleeve, stretch fabric, polyester spandex, short sleeve for teen girls, daily wear with color: caishen-a170-black, and size: xx-large, and price lower than 60.00 dollars",
+      "instruction": "Find me hand wash women's bodysuit tops with long sleeve, stretch fabric, polyes"
+    },
+    {
+      "goal": 37,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "straight leg, machine wash men's pants with button closure with color: burma grey, and size: 31w x 32l, and price lower than 70.00 dollars",
+      "instruction": "Find me straight leg, machine wash men's pants with button closure with color: b"
+    },
+    {
+      "goal": 38,
+      "reward": 1.0,
+      "steps": 5,
+      "success": true,
+      "first_query": "daily casual, slim fit men's sweaters with long sleeve with color: cmttl0104-green, and size: small, and price lower than 50.00 dollars",
+      "instruction": "Find me daily casual, slim fit men's sweaters with long sleeve with color: cmttl"
+    },
+    {
+      "goal": 39,
+      "reward": 0.5,
+      "steps": 5,
+      "success": false,
+      "first_query": "wide leg, machine wash, wash cold women's pants with relaxed fit, button closure, high waist for teen girls with color: m# green, and size: x-small, and price lower than 60.00 dollars",
+      "instruction": "Find me wide leg, machine wash, wash cold women's pants with relaxed fit, button"
+    },
+    {
+      "goal": 40,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "easy care, day comfort, machine washable men's jeans with comfortable fit, relaxed fit with color: light wash, and size: 34w x 30l, and price lower than 60.00 dollars",
+      "instruction": "Find me easy care, day comfort, machine washable men's jeans with comfortable fi"
+    },
+    {
+      "goal": 41,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": " ",
+      "instruction": "Find me wash cold, machine wash men's t-shirts with polyester heathers, heathers"
+    },
+    {
+      "goal": 42,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "high density window coverings for living room with color: blackout khaki 3903, and size: 77\"w x 48\"h, and price lower than 150.00 dollars",
+      "instruction": "Find me high density window coverings for living room with color: blackout khaki"
+    },
+    {
+      "goal": 43,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "machine wash women's dresses with imported zipper with color: teal, and size: 18 plus, and price lower than 110.00 dollars",
+      "instruction": "Find me machine wash women's dresses with imported zipper with color: teal, and "
+    },
+    {
+      "goal": 44,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "women's loafers & slip-ons with closed toe, ankle strap with color: w43 - pink, and size: 7 wide, and price lower than 40.00 dollars",
+      "instruction": "Find me women's loafers & slip-ons with closed toe, ankle strap with color: w43 "
+    },
+    {
+      "goal": 45,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "wsk2135_teal women's sweaters",
+      "instruction": "Find me wash cold, hand wash women's sweaters with comfortable fit, long sleeve "
+    },
+    {
+      "goal": 46,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "slim fit, hand wash women's jumpsuits, rompers & overalls with long sleeve for dry clean with color: 001-black f, and size: x-large, and price lower than 30.00 dollars",
+      "instruction": "Find me slim fit, hand wash women's jumpsuits, rompers & overalls with long slee"
+    },
+    {
+      "goal": 47,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "easy assemble pendants and chandeliers with pendant light, stainless steel, light fixture for living room, dining room with color: pendant light a, and price lower than 80.00 dollars",
+      "instruction": "Find me easy assemble pendants and chandeliers with pendant light, stainless ste"
+    },
+    {
+      "goal": 48,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "slim fit, loose fit women's sweaters with long sleeve, short sleeve, high waist with color: khaki, and size: xx-large, and price lower than 60.00 dollars",
+      "instruction": "Find me slim fit, loose fit women's sweaters with long sleeve, short sleeve, hig"
+    },
+    {
+      "goal": 49,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "long lasting, machine wash men's jeans with imported zipper, comfortable fit with color: layton, and fit type: slim, and size: 31w x 32l, and price lower than 60.00 dollars",
+      "instruction": "Find me long lasting, machine wash men's jeans with imported zipper, comfortable"
+    }
+  ],
+  "unified_sft": [
+    {
+      "goal": 0,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "easy care, day comfort, machine washable womens shorts with stretch fabric for everyday wear, tumble dry with color: mint, and size: 7, and price lower than 50.00 dollars",
+      "instruction": "Find me easy care, day comfort, machine washable women's shorts with stretch fab"
+    },
+    {
+      "goal": 1,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "slim fit, moisture wicking mens polos with short sleeve, regular fit, long sleeve, stretch fabric, polyester spandex, classic fit for daily wear with color: dark blue, and size: x-large, and price lower than 50.00 dollars",
+      "instruction": "Find me slim fit, moisture wicking men's polos with short sleeve, regular fit, l"
+    },
+    {
+      "goal": 2,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "easy care, loose fit womens tops, tees & blouses with color: lake green, and size: x-large, and price lower than 50.00 dollars",
+      "instruction": "Find me easy care, loose fit women's tops, tees & blouses with color: lake green"
+    },
+    {
+      "goal": 3,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "batteries with size: 48 pack, and style: cr2025, and price lower than 50.00 dollars",
+      "instruction": "Find me long lasting, high performance batteries with size: 48 pack, and style: "
+    },
+    {
+      "goal": 4,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "easy carry underwater photography for digital photography with size: 8x6.5ft",
+      "instruction": "Find me light weight, high resolution, easy carry underwater photography for dig"
+    },
+    {
+      "goal": 5,
+      "reward": 0.625,
+      "steps": 3,
+      "success": true,
+      "first_query": "officially licensed mens dress shirts with needle sleeve, classic fit for star wars with color: black, and fit type: men, and size: 2t, and price lower than 60.00 dollars",
+      "instruction": "Find me officially licensed men's dress shirts with needle sleeve, classic fit f"
+    },
+    {
+      "goal": 6,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "long lasting, machine wash mens jeans with imported zipper, comfortable fit with color: acorn, and fit type: relaxed, and size: 30w x 34l, and price lower than 130.00 dollars",
+      "instruction": "Find me long lasting, machine wash men's jeans with imported zipper, comfortable"
+    },
+    {
+      "goal": 7,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "straight leg, fleece lined, wide leg womens activewear with tummy control, high waist for teen girls, daily wear with color: b3-navy, and size: x-large, and price lower than 30.00 dollars",
+      "instruction": "Find me straight leg, fleece lined, wide leg women's activewear with tummy contr"
+    },
+    {
+      "goal": 8,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "long lasting, machine wash mens jeans with imported zipper, comfortable fit with color: portland, and fit type: regular, and size: 38w x 40l, and price lower than 60.00 dollars",
+      "instruction": "Find me long lasting, machine wash men's jeans with imported zipper, comfortable"
+    },
+    {
+      "goal": 9,
+      "reward": 0.6,
+      "steps": 3,
+      "success": true,
+      "first_query": "mens sandals with rubber outsole, rubber sole with color: black - schwarz ((hank foto) bla), and size: 9 uk, and price lower than 60.00 dollars",
+      "instruction": "Find me men's sandals with rubber outsole, rubber sole with color: black - schwa"
+    },
+    {
+      "goal": 10,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "mid century ottomans with wood frame, solid wood with color: teal, and size: 80\" sofa, and price lower than 260.00 dollars",
+      "instruction": "Find me mid century ottomans with wood frame, solid wood with color: teal, and s"
+    },
+    {
+      "goal": 11,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "fleece lined, wash cold, hand wash womens pants with high waist, polyester spandex with color: high waist print leggings - snake mauve, and size: 1x, and price lower than 50.00 dollars",
+      "instruction": "Find me fleece lined, wash cold, hand wash women's pants with high waist, polyes"
+    },
+    {
+      "goal": 12,
+      "reward": 0.625,
+      "steps": 4,
+      "success": true,
+      "first_query": "slim fit, hand wash, machine wash mens dress shirts with button closure, long sleeve with color: i-blue, and size: x-small, and price lower than 50.00 dollars",
+      "instruction": "Find me slim fit, hand wash, machine wash men's dress shirts with button closure"
+    },
+    {
+      "goal": 13,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "womens shorts with high waist, tummy control with color: red, and size: medium",
+      "instruction": "Find me wide leg, moisture wicking women's shorts with high waist, tummy control"
+    },
+    {
+      "goal": 14,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "womens pants with high waist, elastic waist, polyester spandex with color: pink, and size: large, and price lower than 60.00 dollars",
+      "instruction": "Find me women's pants with high waist, elastic waist, polyester spandex with col"
+    },
+    {
+      "goal": 15,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "officially licensed, machine wash mens t-shirts & tanks with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: black, and fit type: women, and size: xx-large, and price lower than 60.00 dollars",
+      "instruction": "Find me officially licensed, machine wash men's t-shirts & tanks with polyester "
+    },
+    {
+      "goal": 16,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "super soft decorative pillows with exquisite workmanship with color: chocolate, and size: king  |  cal-king 92x104 (3pcs duvet set)",
+      "instruction": "Find me super soft decorative pillows with exquisite workmanship with color: cho"
+    },
+    {
+      "goal": 17,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "womens pants with elastic waist, long sleeve, high waist, elastic closure, short sleeve for everyday wear with color: black, and size: x-large, and price lower than 50.00 dollars",
+      "instruction": "Find me wide leg, straight leg women's pants with elastic waist, long sleeve, hi"
+    },
+    {
+      "goal": 18,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "mens t-shirts & tanks with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: purple, and fit type: men, and size: medium, and price lower than 50.00 dollars",
+      "instruction": "Find me machine wash men's t-shirts & tanks with polyester heathers, heathers co"
+    },
+    {
+      "goal": 19,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "machine wash mens dress shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: white, and fit type: women, and size: large, and price lower than 30.00 dollars",
+      "instruction": "Find me machine wash men's dress shirts with polyester heathers, heathers cotton"
+    },
+    {
+      "goal": 20,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "quick drying, hand wash womens swimsuits & cover ups with polyester spandex with color: black, and size: large, and price lower than 40.00 dollars",
+      "instruction": "Find me quick drying, hand wash women's swimsuits & cover ups with polyester spa"
+    },
+    {
+      "goal": 21,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "daily casual, day comfort, moisture wicking womens pants with tummy control, high waist, nylon spandex with color: full length - navy blue, and size: large, and price lower than 50.00 dollars",
+      "instruction": "Find me daily casual, day comfort, moisture wicking women's pants with tummy con"
+    },
+    {
+      "goal": 22,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "machine wash mens dress shirts with polyester heathers, heathers cotton, cotton heather with color: navy, and fit type: men, and size: medium, and price lower than 50.00 dollars",
+      "instruction": "Find me machine wash men's dress shirts with polyester heathers, heathers cotton"
+    },
+    {
+      "goal": 23,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "mens t-shirts with polyester cotton, short sleeve with color: heather navy, and size: x-large",
+      "instruction": "Find me machine wash men's t-shirts with polyester cotton, short sleeve with col"
+    },
+    {
+      "goal": 24,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "womens loafers & slip-ons with high heel, closed toe, ankle strap with color: #h4-dark purple, and size: 8, and price lower than 40.00 dollars",
+      "instruction": "Find me women's loafers & slip-ons with high heel, closed toe, ankle strap with "
+    },
+    {
+      "goal": 25,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "officially licensed, machine wash mens t-shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: royal blue, and fit type: men, and size: xx-large, and price lower than 60.00 dollars",
+      "instruction": "Find me officially licensed, machine wash men's t-shirts with polyester heathers"
+    },
+    {
+      "goal": 26,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "long lasting mens pants with comfortable fit, relaxed fit with color: stonewashed, and fit type: big & tall, and size: 35w x 38l, and price lower than 60.00 dollars",
+      "instruction": "Find me long lasting men's pants with comfortable fit, relaxed fit with color: s"
+    },
+    {
+      "goal": 27,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "day comfort, anti slip, non slip, hand wash womens oxfords with lace closure, high heel with color: white, and size: 10.5, and price lower than 60.00 dollars",
+      "instruction": "Find me day comfort, anti slip, non slip, hand wash women's oxfords with lace cl"
+    },
+    {
+      "goal": 28,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "open toe womens work & safety footwear with closed toe, ankle strap, arch support with color: a11 - gold, and size: 4 wide, and price lower than 60.00 dollars",
+      "instruction": "Find me open toe women's work & safety footwear with closed toe, ankle strap, ar"
+    },
+    {
+      "goal": 29,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "mens tank tops with needle sleeve, classic fit with color: neon pink, and fit type: men, and size: large, and price lower than 50.00 dollars",
+      "instruction": "Find me men's tank tops with needle sleeve, classic fit with color: neon pink, a"
+    },
+    {
+      "goal": 30,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "water resistant, anti slip, non slip womens oxfords with rubber sole with color: dark green, and size: 6 women | 4.5 men, and price lower than 80.00 dollars",
+      "instruction": "Find me water resistant, anti slip, non slip women's oxfords with rubber sole wi"
+    },
+    {
+      "goal": 31,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "super soft, machine washable decorative pillows with color: brown coffee, and size: 36\" x 20\"",
+      "instruction": "Find me super soft, machine washable decorative pillows with color: brown coffee"
+    },
+    {
+      "goal": 32,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "vanity light, glass shade with color: chrome, and size: 3-light, and price lower than 550.00 dollars",
+      "instruction": "Find me vanities with vanity light, glass shade with color: chrome, and size: 3-"
+    },
+    {
+      "goal": 33,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "officially licensed, machine wash mens tank tops with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: dark heather, and fit type: women, and size: medium, and price lower than 50.00 dollars",
+      "instruction": "Find me officially licensed, machine wash men's tank tops with polyester heather"
+    },
+    {
+      "goal": 34,
+      "reward": 0.0,
+      "steps": 3,
+      "success": false,
+      "first_query": "officially licensed mens dress shirts with needle sleeve, classic fit with color: black, and fit type: women, and size: 2t, and price lower than 50.00 dollars",
+      "instruction": "Find me officially licensed men's dress shirts with needle sleeve, classic fit w"
+    },
+    {
+      "goal": 35,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "day comfort, machine wash mens pants with color: ceil blue, and size: xx-large big tall, and price lower than 60.00 dollars",
+      "instruction": "Find me day comfort, machine wash men's pants with color: ceil blue, and size: x"
+    },
+    {
+      "goal": 36,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "hand wash womens bodysuit tops with long sleeve, stretch fabric, polyester spandex, short sleeve for teen girls, daily wear with color: caishen-a170-black, and size: xx-large, and price lower than 60.00 dollars",
+      "instruction": "Find me hand wash women's bodysuit tops with long sleeve, stretch fabric, polyes"
+    },
+    {
+      "goal": 37,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "straight leg, machine wash mens pants with button closure with color: burma grey, and size: 31w x 32l, and price lower than 70.00 dollars",
+      "instruction": "Find me straight leg, machine wash men's pants with button closure with color: b"
+    },
+    {
+      "goal": 38,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "daily casual, slim fit mens sweaters with long sleeve with color: cmttl0104-green, and size: small, and price lower than 50.00 dollars",
+      "instruction": "Find me daily casual, slim fit men's sweaters with long sleeve with color: cmttl"
+    },
+    {
+      "goal": 39,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "womens pants with relaxed fit, button closure, high waist for teen girls with color: m# green, and size: x-small",
+      "instruction": "Find me wide leg, machine wash, wash cold women's pants with relaxed fit, button"
+    },
+    {
+      "goal": 40,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "easy care, day comfort, machine washable mens jeans with comfortable fit, relaxed fit with color: light wash, and size: 34w x 30l, and price lower than 60.00 dollars",
+      "instruction": "Find me easy care, day comfort, machine washable men's jeans with comfortable fi"
+    },
+    {
+      "goal": 41,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "womens t-shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: heather blue, and fit type: men, and size: 3x-large, and price lower than 50.00 dollars",
+      "instruction": "Find me wash cold, machine wash men's t-shirts with polyester heathers, heathers"
+    },
+    {
+      "goal": 42,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "high density window coverings for living room with color: blackout khaki 3903, and size: 77\"w x 48\"h, and price lower than 150.00 dollars",
+      "instruction": "Find me high density window coverings for living room with color: blackout khaki"
+    },
+    {
+      "goal": 43,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "machine wash womens dresses with imported zipper with color: teal, and size: 18 plus, and price lower than 110.00 dollars",
+      "instruction": "Find me machine wash women's dresses with imported zipper with color: teal, and "
+    },
+    {
+      "goal": 44,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "womens loafers & slip-ons with closed toe, ankle strap with color: w43 - pink, and size: 7 wide, and price lower than 40.00 dollars",
+      "instruction": "Find me women's loafers & slip-ons with closed toe, ankle strap with color: w43 "
+    },
+    {
+      "goal": 45,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "womens sweaters with comfortable fit, long sleeve for dry clean, daily wear with color: wsk2135_teal, and size: 3x-large, and price lower than 50.00 dollars",
+      "instruction": "Find me wash cold, hand wash women's sweaters with comfortable fit, long sleeve "
+    },
+    {
+      "goal": 46,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "slim fit, hand wash womens jumpsuits, rompers & overalls with long sleeve for dry clean with color: 001-black f, and size: x-large, and price lower than 30.00 dollars",
+      "instruction": "Find me slim fit, hand wash women's jumpsuits, rompers & overalls with long slee"
+    },
+    {
+      "goal": 47,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "easy assemble pendants and chandeliers with pendant light, stainless steel, light fixture for living room, dining room with color: pendant light a, and price lower than 80.00 dollars",
+      "instruction": "Find me easy assemble pendants and chandeliers with pendant light, stainless ste"
+    },
+    {
+      "goal": 48,
+      "reward": 0.75,
+      "steps": 5,
+      "success": true,
+      "first_query": "slim fit, loose fit womens sweaters with long sleeve, short sleeve, high waist with color: khaki, and size: xx-large, and price lower than 60.00 dollars",
+      "instruction": "Find me slim fit, loose fit women's sweaters with long sleeve, short sleeve, hig"
+    },
+    {
+      "goal": 49,
+      "reward": 0.0,
+      "steps": 7,
+      "success": false,
+      "first_query": "long lasting, machine wash mens jeans with imported zipper, comfortable fit with color: layton, and fit type: slim, and size: 31w x 32l, and price lower than 60.00 dollars",
+      "instruction": "Find me long lasting, machine wash men's jeans with imported zipper, comfortable"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "success_rate": 0.12,
+    "avg_reward": 0.09731999999999999
+  },
+  "baseline+controller": {
+    "success_rate": 0.28,
+    "avg_reward": 0.282,
+    "total_interventions": 41
+  },
+  "unified_sft": {
+    "success_rate": 0.02,
+    "avg_reward": 0.012
+  },
+  "unified_sft+controller": {
+    "success_rate": 0.48,
+    "avg_reward": 0.4455200000000001,
+    "total_interventions": 114
+  }
+}

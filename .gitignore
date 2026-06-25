@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Large WebShop data and indexes
+WebShop/data/
+WebShop/search_engine/indexes*/
+WebShop/search_engine/resources*/
+*.json.part
+items_shuffle*.json
+items_shuffle_part_*
+items_ins_v2.json
+
+# Model checkpoints / adapters
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Logs and temporary files
+*.log
+nohup.out
+tmp/
+$TMPDIR/
+
+# macOS
+.DS_Store
+

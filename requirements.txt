@@ -1,0 +1,15 @@
+torch
+transformers
+peft
+trl
+datasets
+accelerate
+bitsandbytes
+gym==0.24.0
+beautifulsoup4
+tqdm
+numpy
+pyserini
+thefuzz
+clean-text
+
