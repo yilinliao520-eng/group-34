@@ -1,0 +1,57 @@
+{
+  "evaluation_protocol": {
+    "environment": "WebShop full (1.18M products, num_products=None)",
+    "model": "Qwen2.5-7B-Instruct (FP16, ~15GB)",
+    "test_split": "goals 0-49 (synthetic, 50 goals)",
+    "max_steps": 7,
+    "prompt": "keyword_only (SHORT keyword queries with 3-6 words)",
+    "scoring": {
+      "strong_success": "reward > 0.5",
+      "strict_success": "reward >= 0.9",
+      "task_score": "100 * avg_reward"
+    }
+  },
+  "results": {
+    "raw_react_baseline": {
+      "description": "Original ReAct prompt, no keyword constraint",
+      "strong_sr": 0.10,
+      "avg_reward": 0.077,
+      "avg_first_query_words": 15.8,
+      "source_file": "baseline_full_synthetic_raw_react_50.jsonl"
+    },
+    "keyword_prompt_baseline": {
+      "description": "ReAct + keyword-only system prompt",
+      "strong_sr": 0.20,
+      "avg_reward": 0.209,
+      "avg_first_query_words": 7.2,
+      "source_file": "model_comparison_full_synthetic_keyword_50.json"
+    },
+    "unified_sft_alone": {
+      "description": "Unified SFT adapter (14,544 trajectories), no controller",
+      "strong_sr": 0.02,
+      "avg_reward": 0.012,
+      "diagnosis": "Searches well but almost never buys (82% max_steps_no_buy)",
+      "source_file": "model_comparison_full_synthetic_keyword_50.json"
+    },
+    "unified_sft_conservative_controller": {
+      "description": "Unified SFT + conservative anti-loop controller",
+      "strong_sr": 0.48,
+      "avg_reward": 0.419,
+      "controller_interventions": 106,
+      "source_file": "controller_ablation_unified_sft_conservative_forced_buy_50.jsonl"
+    },
+    "controller_ablation": {
+      "no_controller": {"sr": 0.02, "interventions": 0},
+      "repeat_to_click_only": {"sr": 0.22, "interventions": 74},
+      "no_forced_buy": {"sr": 0.22, "interventions": 81},
+      "conservative_forced_buy": {"sr": 0.48, "interventions": 106},
+      "aggressive_controller": {"sr": 0.48, "interventions": 114}
+    }
+  },
+  "timestamp": "2026-06-25T10:30:00",
+  "notes": [
+    "Results from 50-goal full synthetic evaluation",
+    "keyword prompt is baseline for all models except raw_react",
+    "Controller result should be validated on larger split"
+  ]
+}

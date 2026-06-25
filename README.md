@@ -6,124 +6,98 @@
 
 ## Overview
 
-This project studies LLM-based agents for the WebShop shopping environment. We evaluate a ReAct-style Qwen2.5-7B-Instruct agent, prompt-level query control, supervised fine-tuning (SFT), failure diagnostics, and a lightweight anti-loop strategy controller.
+This project investigates LLM-based agent strategies for the WebShop e-commerce simulation environment. We implement a ReAct-style Qwen2.5-7B-Instruct agent and evaluate three key hypotheses: (1) prompt-level query constraints improve retrieval effectiveness, (2) supervised fine-tuning (SFT) on expert trajectories enhances agent capabilities, and (3) a lightweight anti-loop strategy controller mitigates repetitive search and inaction failure modes.
 
-The main finding is that naive SFT alone does not improve the agent: it often repeats search actions and fails to buy. However, combining the SFT model with a conservative anti-loop controller substantially improves performance on a 50-goal full synthetic WebShop evaluation.
+Our primary finding is that SFT alone degrades agent performance due to loss of multi-step transition control. However, combining the SFT model with a conservative anti-loop strategy controller yields the strongest result in our evaluation framework.
 
-## Main Result
+## Main Results
 
-Evaluation setting:
-
+Evaluation configuration:
 - WebShop full product index: 1.18M products
-- Test split: synthetic goals 0-49
-- Max steps: 7
-- Strong success: `reward > 0.5`
+- Evaluation split: synthetic goals 0–49
+- Maximum steps per episode: 7
+- Primary metric: strong success rate (reward > 0.5)
 
 | System | Strong SR | Avg Reward | Notes |
 |---|---:|---:|---|
-| Raw ReAct | 10% | 0.077 | Original ReAct prompt |
-| Keyword baseline | 20% | 0.209 | Short keyword query prompt |
-| Unified SFT | 2% | 0.012 | Repeated search / no-buy loop |
-| Unified SFT + conservative controller | 48% | 0.419 | Best current result |
+| Raw ReAct | 10% | 0.077 | Original ReAct prompt baseline |
+| Keyword Baseline | 20% | 0.209 | ReAct + short keyword query prompt |
+| Unified SFT | 2% | 0.012 | Fine-tuned on 14,544 trajectories |
+| Unified SFT + Controller | **48%** | **0.419** | SFT + conservative anti-loop controller |
 
-Controller ablation:
+Controller Ablation Study:
 
 | Controller Variant | Strong SR | Avg Reward |
 |---|---:|---:|
-| no controller | 2% | 0.012 |
-| repeat-to-click only | 22% | 0.182 |
-| no forced buy | 22% | 0.192 |
-| conservative forced buy | 48% | 0.419 |
-| aggressive controller | 48% | 0.446 |
+| No controller | 2% | 0.012 |
+| Repeat-to-click only | 22% | 0.182 |
+| No forced buy | 22% | 0.192 |
+| Conservative forced buy | **48%** | **0.419** |
+| Aggressive controller | 48% | 0.446 |
 
 ## Repository Layout
 
 ```text
 src/
-  agent/          ReAct agent and anti-loop controller
-  eval/           Evaluation, diagnosis, and controller ablation scripts
+  agent/          ReAct agent implementation and anti-loop controller
+  eval/           Evaluation scripts: comparison, diagnosis, and ablation
   training/       SFT, data cleaning, and DPO preparation scripts
 results/
   full_env_audit/ Main 50-goal evaluation results and summaries
 report/
-  overleaf_acl_group34/       Official ACL-template Overleaf package
-  group34_acl_overleaf_package.zip  Zip version for direct Overleaf upload
-  final_report_group34_zh.tex  Chinese final report source for Overleaf/ACL
-  acl.sty                     Lightweight ACL-like style used by the report
-  references.bib              Report bibliography
-  figures/                    Report figures in PDF/SVG formats
-  README_OVERLEAF.md          Overleaf compilation notes
+  group-34.pdf    Final project report (PDF)
+  main.tex        LaTeX source for the final report
+  acl.sty         ACL-style formatting
+  figures/        Report figures in PDF/SVG formats
 data/
-  DPO_DATASET_TODO.md      Targeted DPO dataset construction plan
-docs/
-  AGENT_REVIEW_BOARD.md    Experiment decisions and audit notes
+  eval_goals_full_synthetic_50.json  Fixed 50-goal evaluation subset
+requirements.txt  Python dependencies
 ```
 
 ## Large Files Not Included
 
-The GitHub/course code submission intentionally excludes:
+The following files are excluded from the repository to meet size constraints:
+- Qwen2.5-7B-Instruct model weights (~15 GB)
+- LoRA adapter checkpoint files (~300 MB)
+- WebShop full product JSON files (~5.5 GB)
+- Lucene search indexes (~3.5 GB)
 
-- Qwen2.5-7B base model weights
-- LoRA adapter checkpoint files
-- WebShop full product JSON files
-- Lucene indexes
-
-These files were stored and run on the course server under:
-
-```text
-/inspire/hdd/project/fdu-aidake-cfff/public/liaoyilin/final_project/
-```
-
-The final course submission directory is expected to contain source code and lightweight result artifacts, not multi-GB data/model files. The report source is included for reproducibility; the final PDF can be compiled from `report/final_report_group34_zh.tex` in Overleaf using the ACL template.
+These artifacts reside on the course GPU server and can be reproduced by running the scripts in `src/training/`.
 
 ## Reproduction Notes
 
-The original experiments used two server environments:
+All experiments require:
+- WebShop environment (`web_agent_site`, `search_engine/`)
+- Qwen2.5-7B-Instruct model weights
+- Python 3.8+ with PyTorch, Transformers, PEFT, spaCy, and Pyserini
 
-- `webshop`: WebShop environment, Pyserini, Gym, and evaluation
-- LLM/GPU environment for Qwen2.5-7B inference and LoRA adapters
-
-Typical commands:
-
+Key commands:
 ```bash
-# Full-environment smoke test
-python src/agent/smoke_test_full.py
-
-# Unified 50-goal evaluation runner
-python src/eval/main_eval_fast.py
-
-# Failure diagnosis
-python src/eval/diagnose.py
-
-# Anti-loop controller evaluation
-python src/eval/eval_anti_loop.py
-
-# Controller ablation
-python src/eval/eval_ablation_controller.py
+python src/agent/smoke_test_full.py     # Smoke test
+python src/eval/main_eval_fast.py       # Unified evaluation
+python src/eval/diagnose.py             # Failure diagnosis
+python src/eval/eval_anti_loop.py       # Controller evaluation
+python src/eval/eval_ablation_controller.py  # Controller ablation
 ```
 
-Most scripts contain absolute server paths from the experiment environment. To run elsewhere, update:
-
-- `MODEL_PATH`
-- `WEBSHOP_PATH`
-- output directories
+Scripts contain absolute server paths. To reproduce on a different machine, update `MODEL_PATH`, `WEBSHOP_PATH`, and output directory variables.
 
 ## Method Summary
 
-1. **Raw ReAct baseline:** Qwen2.5-7B-Instruct generates `Thought` and `Action`.
-2. **Keyword prompt:** constrains search actions to short keyword queries.
-3. **SFT:** trains LoRA adapters from WebShop-style trajectories.
-4. **Diagnosis:** categorizes failures into zero-result search, repeated search, max-step no-buy, wrong product, and premature buy.
-5. **Anti-loop controller:** deterministic strategy controller that breaks repeated search loops, clicks products, and conservatively buys near the step limit.
-6. **DPO preparation:** preference-learning plan for query-level and action-level corrections; DPO training was not used for the main positive result.
+1. Raw ReAct baseline: Qwen2.5-7B-Instruct generates Thought and Action in a ReAct loop.
+2. Keyword prompt: constrains search actions to short keyword queries (3–6 words).
+3. Supervised fine-tuning: trains LoRA adapters on WebShop expert trajectories and query-pair data.
+4. Failure diagnosis: classifies failures as zero-result search, repeated search, max-step no-buy, wrong product, and premature buy.
+5. Anti-loop controller: deterministic strategy controller that breaks repeated search loops, triggers product clicks, and forces buy decisions near the step limit.
+6. DPO preparation: preference-learning plan for query-level and action-level corrections (not yet executed).
 
 ## Limitations
 
-- Main evaluation uses 50 full synthetic goals, not the original 500-goal benchmark split.
-- The controller is deterministic and rule-based, not a learned Bandit yet.
-- DPO is prepared as a next-stage method but not reported as a performance-improving result.
-- Results should be validated on a larger split before making benchmark-level claims.
+- Primary evaluation uses 50 synthetic goals; the standard 500-goal benchmark split has not been evaluated.
+- The anti-loop controller is deterministic and rule-based; future work should incorporate a learned Thompson Sampling Bandit controller.
+- DPO data has been constructed but not yet trained or evaluated.
+- All results are reported under cautious wording: "On a 50-goal full synthetic evaluation..."
 
-## Key Takeaway
+## Conclusion
 
-Naive SFT alone can harm a WebShop LLM agent by weakening multi-step transition control. A conservative strategy controller can recover and amplify useful search behavior learned by SFT, producing the strongest result in this project.
+Naive supervised fine-tuning on WebShop trajectories can degrade agent performance by disrupting multi-step transition control. A conservative strategy controller recovers and amplifies the useful search behaviors learned through SFT, producing the strongest result (48% strong success rate) in our evaluation framework.
