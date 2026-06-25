@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Experiment workflow">
+  <rect width="900" height="260" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto">
+      <path d="M0,0 L12,4 L0,8 Z" fill="#3f4b5a"/>
+    </marker>
+    <style>
+      .box { fill: #f6f8fb; stroke: #8b98a8; stroke-width: 1.5; rx: 10; }
+      .best { fill: #eef7f0; stroke: #4b9b62; stroke-width: 2; rx: 10; }
+      .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: 700; fill: #1f2933; }
+      .text { font-family: Arial, sans-serif; font-size: 15px; fill: #2f3a46; }
+      .small { font-family: Arial, sans-serif; font-size: 13px; fill: #52606d; }
+      .arrow { stroke: #3f4b5a; stroke-width: 2; marker-end: url(#arrow); fill: none; }
+    </style>
+  </defs>
+  <text x="32" y="34" class="title">Experiment Design</text>
+  <rect class="box" x="32" y="72" width="150" height="92"/>
+  <text x="52" y="104" class="text">Raw ReAct</text>
+  <text x="52" y="130" class="small">Qwen2.5-7B</text>
+  <text x="52" y="150" class="small">10% strong SR</text>
+  <path class="arrow" d="M186 118 H246"/>
+  <rect class="box" x="252" y="72" width="160" height="92"/>
+  <text x="272" y="104" class="text">Keyword Prompt</text>
+  <text x="272" y="130" class="small">Short search query</text>
+  <text x="272" y="150" class="small">20% strong SR</text>
+  <path class="arrow" d="M416 118 H476"/>
+  <rect class="box" x="482" y="72" width="150" height="92"/>
+  <text x="502" y="104" class="text">Unified SFT</text>
+  <text x="502" y="130" class="small">LoRA adapter</text>
+  <text x="502" y="150" class="small">2% strong SR</text>
+  <path class="arrow" d="M636 118 H696"/>
+  <rect class="best" x="702" y="72" width="166" height="92"/>
+  <text x="722" y="104" class="text">SFT + Controller</text>
+  <text x="722" y="130" class="small">Anti-loop strategy</text>
+  <text x="722" y="150" class="small">48% strong SR</text>
+  <path d="M554 168 C554 214, 312 214, 312 166" stroke="#b45309" stroke-width="2" fill="none" marker-end="url(#arrow)" stroke-dasharray="7 5"/>
+  <text x="386" y="229" class="small">Failure diagnosis: repeated search / no-buy loop motivates explicit transition control</text>
+</svg>

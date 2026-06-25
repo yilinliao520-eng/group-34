@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-label="Main results and controller ablation">
+  <rect width="900" height="420" fill="#ffffff"/>
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: 700; fill: #1f2933; }
+      .axis { stroke: #52606d; stroke-width: 1.4; }
+      .grid { stroke: #d9e2ec; stroke-width: 1; }
+      .label { font-family: Arial, sans-serif; font-size: 13px; fill: #334e68; }
+      .tick { font-family: Arial, sans-serif; font-size: 12px; fill: #52606d; }
+      .value { font-family: Arial, sans-serif; font-size: 13px; font-weight: 700; fill: #1f2933; }
+    </style>
+  </defs>
+  <text x="32" y="34" class="title">Strong Success Rate on 50 Full Synthetic WebShop Goals</text>
+  <line x1="70" y1="330" x2="830" y2="330" class="axis"/>
+  <line x1="70" y1="70" x2="70" y2="330" class="axis"/>
+  <line x1="70" y1="278" x2="830" y2="278" class="grid"/>
+  <line x1="70" y1="226" x2="830" y2="226" class="grid"/>
+  <line x1="70" y1="174" x2="830" y2="174" class="grid"/>
+  <line x1="70" y1="122" x2="830" y2="122" class="grid"/>
+  <line x1="70" y1="70" x2="830" y2="70" class="grid"/>
+  <text x="38" y="334" class="tick">0%</text>
+  <text x="32" y="282" class="tick">10%</text>
+  <text x="32" y="230" class="tick">20%</text>
+  <text x="32" y="178" class="tick">30%</text>
+  <text x="32" y="126" class="tick">40%</text>
+  <text x="32" y="74" class="tick">50%</text>
+  <rect x="118" y="278" width="86" height="52" fill="#7aa6c2"/>
+  <rect x="257" y="226" width="86" height="104" fill="#4f83b3"/>
+  <rect x="396" y="320" width="86" height="10" fill="#c96f5f"/>
+  <rect x="535" y="216" width="86" height="114" fill="#8ab17d"/>
+  <rect x="674" y="80" width="86" height="250" fill="#3f8f5f"/>
+  <text x="148" y="270" class="value">10%</text>
+  <text x="287" y="218" class="value">20%</text>
+  <text x="429" y="312" class="value">2%</text>
+  <text x="565" y="208" class="value">22%</text>
+  <text x="704" y="72" class="value">48%</text>
+  <text x="100" y="354" class="label">Raw ReAct</text>
+  <text x="230" y="354" class="label">Keyword baseline</text>
+  <text x="382" y="354" class="label">Unified SFT</text>
+  <text x="506" y="354" class="label">Repeat-to-click</text>
+  <text x="640" y="354" class="label">SFT + controller</text>
+  <text x="70" y="394" class="label">The main gain comes from adding transition control to the SFT model after diagnosing repeated-search/no-buy failures.</text>
+</svg>

@@ -10,6 +10,8 @@ Web shopping is a realistic language-agent task: an agent must interpret user co
 
 Our original plan followed a three-stage architecture: ReAct baseline, SFT, and reward-aware strategy control. During experimentation we found that naive SFT alone did not improve performance. Instead of treating this as a dead end, we performed failure diagnosis and found that the SFT model often entered repeated-search/no-buy loops. This motivated a deterministic anti-loop controller as a lightweight strategy layer.
 
+![Experiment workflow](figures/workflow.svg)
+
 ## 2 Related Work
 
 WebShop provides a grounded web-shopping benchmark with 1.18M products and natural-language shopping goals. ReAct-style agents interleave reasoning and acting, making them suitable for interactive environments. Preference optimization methods such as DPO are relevant for future work, but they require carefully aligned chosen/rejected action pairs. In our experiments, controller-based transition control became the most effective intervention.
@@ -52,6 +54,8 @@ We identified DPO as a natural next stage, especially for action-level preferenc
 
 ### 5.1 Main Results
 
+![Main results](figures/main_results.svg)
+
 | System | Strong Success | Avg Reward | Notes |
 |---|---:|---:|---|
 | Raw ReAct | 10% | 0.077 | Original prompt |
@@ -84,4 +88,3 @@ The main evaluation uses only 50 synthetic goals, so the results should be valid
 ## 8 Conclusion
 
 Naive SFT alone does not solve WebShop. In our experiments, it weakens multi-step transition control and causes repeated-search/no-buy loops. However, when paired with a conservative anti-loop controller, the SFT agent reaches 48% strong success on a 50-goal full synthetic evaluation. The key lesson is that fine-tuned language agents need explicit strategy control for interactive web-shopping tasks.
-

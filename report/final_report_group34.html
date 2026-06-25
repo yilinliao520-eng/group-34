@@ -13,6 +13,9 @@
     table { border-collapse: collapse; width: 100%; margin: 10px 0 14px; font-size: 10pt; }
     th, td { border: 1px solid #bbb; padding: 5px 7px; vertical-align: top; }
     th { background: #f2f4f8; }
+    figure { margin: 14px 0 16px; page-break-inside: avoid; }
+    figure img { width: 100%; display: block; border: 1px solid #d6dbe1; }
+    figcaption { font-size: 9.5pt; color: #333; margin-top: 5px; }
     code { font-family: Menlo, Consolas, monospace; font-size: 9.5pt; }
     .abstract { border: 1px solid #ccc; background: #fafafa; padding: 10px 12px; margin: 12px 0 16px; }
     .note { color: #444; }
@@ -30,6 +33,10 @@
   <h2>1 Introduction</h2>
   <p>Web shopping is a realistic language-agent task: an agent must interpret user constraints, issue search queries, inspect product pages, select options, and decide when to buy. This project investigates whether a small, reproducible LLM agent can improve over a ReAct baseline in WebShop.</p>
   <p>Our original plan followed a three-stage architecture: ReAct baseline, SFT, and reward-aware strategy control. During experimentation we found that naive SFT alone did not improve performance. Failure diagnosis showed that the SFT model often entered repeated-search/no-buy loops. This motivated a deterministic anti-loop controller as a lightweight strategy layer.</p>
+  <figure>
+    <img src="figures/workflow.svg" alt="Experiment workflow">
+    <figcaption>Figure 1: Experimental workflow from raw ReAct to keyword prompting, SFT, failure diagnosis, and controller-guided SFT.</figcaption>
+  </figure>
 
   <h2>2 Task and Dataset</h2>
   <p>We use WebShop full mode with 1.18M products and a full Lucene search index. The agent receives a shopping instruction and interacts with a text-mode environment using actions such as <code>search[keywords]</code>, <code>click[ASIN]</code>, and <code>click[Buy Now]</code>.</p>
@@ -48,6 +55,10 @@
   <p>We identified DPO as a natural next stage, especially for action-level preferences such as repeated search versus click, or no-buy loop versus buy. DPO was not used as the main reported performance result.</p>
 
   <h2>4 Experiments and Results</h2>
+  <figure>
+    <img src="figures/main_results.svg" alt="Main results bar chart">
+    <figcaption>Figure 2: Strong success rate on 50 full synthetic WebShop goals. SFT alone underperforms, while controller-guided SFT gives the best result.</figcaption>
+  </figure>
   <table>
     <thead><tr><th>System</th><th>Strong Success</th><th>Avg Reward</th><th>Notes</th></tr></thead>
     <tbody>
@@ -83,4 +94,3 @@
   <p>[3] Rafailov et al. <i>Direct Preference Optimization: Your Language Model is Secretly a Reward Model.</i> 2023.</p>
 </body>
 </html>
-
