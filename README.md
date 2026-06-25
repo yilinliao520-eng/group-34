@@ -47,6 +47,7 @@ results/
   full_env_audit/ Main 50-goal evaluation results and summaries
 report/
   final_report_group34_zh.tex  Chinese final report source for Overleaf/ACL
+  acl.sty                     Lightweight ACL-like style used by the report
   references.bib              Report bibliography
   figures/                    Report figures in PDF/SVG formats
   README_OVERLEAF.md          Overleaf compilation notes
