@@ -17,6 +17,8 @@
 \usepackage{fontspec}
 \usepackage{xeCJK}
 
+\setlength\titlebox{5cm}
+
 \setmainfont{Times New Roman}
 \IfFontExistsTF{Noto Serif CJK SC}{
   \setCJKmainfont{Noto Serif CJK SC}
@@ -100,17 +102,17 @@ DPO 是本项目后续自然延伸，尤其适合构造 action-level preference 
 
 \section{实验结果}
 
-\begin{figure}[t]
+\begin{figure*}[t]
     \centering
-    \includegraphics[width=\linewidth]{figures/workflow.pdf}
-    \caption{实验流程。从原始 ReAct 出发，依次加入关键词提示、SFT、失败诊断和 anti-loop controller。诊断发现 SFT 的主要问题是 repeated-search/no-buy loop，因此最终采用 SFT 与策略控制结合的结构。}
+    \includegraphics[width=0.88\textwidth]{figures/workflow.pdf}
+    \caption{实验流程。SFT 的主要问题是 repeated-search/no-buy loop，因此最终采用 SFT 与策略控制结合的结构。}
     \label{fig:workflow}
-\end{figure}
+\end{figure*}
 
-\begin{table}[t]
+\begin{table*}[t]
 \centering
 \small
-\begin{tabularx}{\linewidth}{lrrX}
+\begin{tabularx}{0.96\textwidth}{lrrX}
 \toprule
 系统 & Strong SR & Avg. Reward & 说明 \\
 \midrule
@@ -122,16 +124,16 @@ Unified SFT + conservative controller & 48\% & 0.419 & 当前最佳配置 \\
 \end{tabularx}
 \caption{50 条 full synthetic goals 上的主实验结果。}
 \label{tab:main}
-\end{table}
+\end{table*}
 
 表 \ref{tab:main} 展示了主实验结果。Raw ReAct 的 strong success rate 为 10\%，说明原始模型在 WebShop 中具备一定零样本交互能力，但稳定性较弱。关键词提示将 strong success rate 提升到 20\%，验证了 query reformulation 对检索任务的重要性。Unified SFT 单独使用时只有 2\%，说明模仿轨迹格式并不等于学会完整交互策略。加入 conservative controller 后，strong success rate 提升到 48\%，平均 reward 达到 0.419。
 
-\begin{figure}[t]
+\begin{figure*}[t]
     \centering
-    \includegraphics[width=\linewidth]{figures/main_results.pdf}
+    \includegraphics[width=0.78\textwidth]{figures/main_results.pdf}
     \caption{主要系统的 strong success rate 对比。SFT 单独使用明显失效，而加入阶段转换控制后取得最高成功率。}
     \label{fig:main-results}
-\end{figure}
+\end{figure*}
 
 \begin{table}[t]
 \centering
