@@ -46,9 +46,10 @@ src/
 results/
   full_env_audit/ Main 50-goal evaluation results and summaries
 report/
-  final_report_group34.md  Report draft in Markdown
-  final_report_group34.tex LaTeX report source
-  phase1_report.md         Earlier phase report
+  final_report_group34_zh.tex  Chinese final report source for Overleaf/ACL
+  references.bib              Report bibliography
+  figures/                    Report figures in PDF/SVG formats
+  README_OVERLEAF.md          Overleaf compilation notes
 data/
   DPO_DATASET_TODO.md      Targeted DPO dataset construction plan
 docs/
@@ -70,7 +71,7 @@ These files were stored and run on the course server under:
 /inspire/hdd/project/fdu-aidake-cfff/public/liaoyilin/final_project/
 ```
 
-The final course submission directory is expected to contain source code and lightweight result artifacts, not multi-GB data/model files.
+The final course submission directory is expected to contain source code and lightweight result artifacts, not multi-GB data/model files. The report source is included for reproducibility; the final PDF can be compiled from `report/final_report_group34_zh.tex` in Overleaf using the ACL template.
 
 ## Reproduction Notes
 
@@ -123,4 +124,3 @@ Most scripts contain absolute server paths from the experiment environment. To r
 ## Key Takeaway
 
 Naive SFT alone can harm a WebShop LLM agent by weakening multi-step transition control. A conservative strategy controller can recover and amplify useful search behavior learned by SFT, producing the strongest result in this project.
-
